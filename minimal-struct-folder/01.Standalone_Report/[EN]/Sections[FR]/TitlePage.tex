@@ -1,0 +1,73 @@
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+\definecolor{cerisic}{RGB}{0,151,144}
+
+\begingroup
+\thispagestyle{cerisictitlepage}
+
+
+
+\begin{tikzpicture}[remember picture,overlay]
+\coordinate [below=12cm] (midpoint) at (current page.north);
+\node at (current page.north west)
+{\begin{tikzpicture}[remember picture,overlay]
+\node[anchor=north west,inner sep=0pt] at (0,0) {\includegraphics[width=\paperwidth,height=\paperheight]{CERISIC-GE-tiltepage.png}};
+\end{tikzpicture}};
+\end{tikzpicture}
+
+
+\vspace{5cm}
+\sffamily
+\begin{flushleft}
+	\begin{Huge}
+		\textbf{\textcolor{cerisic}{Un très long titre}}
+	\end{Huge}
+\end{flushleft}
+
+\begin{flushright}
+	\begin{Large}
+		\textbf{\textsl{\textcolor{cerisic}{Projet}}}
+	\end{Large}
+	
+	\begin{large}
+		\textbf{\textsl{\textcolor{cerisic}{Un sous titre}}}
+	\end{large}
+\end{flushright}
+
+
+\begin{flushright}
+	\begin{Large}
+		J. {\sc Doe}\\
+	\end{Large}
+	v0.2
+\end{flushright}
+
+
+
+\vfill
+\begin{minipage}{0.3\textwidth}
+	\begin{center}
+	\textbf{\textcolor{cerisic}{Partenaire scientifique}}
+	\vspace{0.5cm}
+	
+	\includegraphics[height=2cm]{../../Images/CERISIC_Logo.jpg}
+	\end{center}
+\end{minipage}
+\hfill
+\begin{minipage}{0.3\textwidth}
+	\begin{center}
+	\textbf{\textcolor{cerisic}{Partenaire industriel}}
+	\vspace{0.5cm}
+	
+	\includegraphics[height=2cm]{../../Images/CERISIC_Logo.jpg}
+	\end{center}
+\end{minipage}
+\vspace{2cm}
+
+
+\begin{center}
+		\today
+\end{center}
+
+\cleardoublepage

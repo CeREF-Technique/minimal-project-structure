@@ -1,0 +1,43 @@
+\documentclass[a4paper,11pt]{report}
+
+
+% Insert packages file HERE
+\input{../../Inputs/packages}
+
+% Insert pre-document inputs HERE
+\input{../../Inputs/pre}
+
+
+\begin{document}
+%\doparttoc
+%\dominitoc
+
+
+% Insert post-document inputs HERE
+\input{../../Inputs/post}
+
+
+%\input{Sections[FR]/TitlePage}
+%\input{Sections[FR]/Revisions}
+\tableofcontents
+
+\part{Titre de la première partie}
+	\chapter{Rapport standalone}
+	\input{../../01.StandaloneReport/[FR]/Sections[FR]/Introduction.tex}
+	\input{../../01.StandaloneReport/[FR]/Sections[FR]/FirstSec.tex}
+
+
+
+	\chapter{Rapport standalone}
+	\input{../../01.StandaloneReport/[FR]/Sections[FR]/Introduction.tex}
+	\input{../../01.StandaloneReport/[FR]/Sections[FR]/FirstSec.tex}
+
+
+
+\newpage
+\bibliographystyle{plain}
+\bibliography{../../Bibliography/Bibliography}
+
+
+
+\end{document}
